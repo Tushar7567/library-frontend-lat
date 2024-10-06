@@ -1,0 +1,117 @@
+/* Container for the login page */
+.login-container {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: wheat;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Card styling for the login form */
+.login-card {
+  font-family: sans-serif;
+  width: 100%;
+  max-width: 320px; /* Reduced width for a more compact look */
+  margin: 0 auto;
+  border-radius: 8px; /* Slightly smaller border radius */
+  background-color: #ffffff;
+  box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px; /* Reduced padding */
+}
+
+/* Form styling */
+form {
+  padding: 20px; /* Reduced padding inside form */
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Title for the login form */
+.login-title {
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+  font-size: 22px; /* Reduced font size */
+  color: #333;
+  margin-bottom: 10px; /* Added space below the title */
+}
+
+/* Fields for the login form */
+.login-fields {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-fields label {
+  color: rgb(170, 166, 166);
+  text-align: left;
+  margin-top: 15px; /* Reduced margin between fields */
+  font-size: 14px; /* Slightly smaller font for labels */
+}
+
+.login-textbox {
+  padding: 5px; /* Reduced padding for the input fields */
+  margin-top: 6px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px; /* Smaller border radius */
+  box-sizing: border-box;
+  outline: none;
+}
+
+.login-textbox:focus {
+  border-color: rgb(69, 69, 185);
+}
+
+/* Login button */
+.login-button {
+  background-color: rgb(69, 69, 185);
+  color: white;
+  padding: 8px; /* Reduced padding for the button */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 8px; /* Smaller border radius */
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: rgb(50, 50, 165);
+}
+
+/* Forgot password link */
+.forget-pass {
+  text-align: center;
+  display: block;
+  margin-top: 8px; /* Reduced margin */
+  font-size: 13px; /* Slightly smaller font */
+  color: rgb(69, 69, 185);
+}
+
+/* Sign up option for new users */
+.signup-option {
+  background-color: rgba(69, 69, 185, 0.2);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 12px; /* Reduced padding */
+}
+
+.signup-question {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 0;
+  font-size: 14px; /* Slightly smaller font */
+  padding: 8px; /* Reduced padding */
+}
